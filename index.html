@@ -1,89 +1,232 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-
-    <link rel="stylesheet" href="./index.js" />
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css" />
-  </head>
-  <body>
-    <div class="macbook-air-1"></div>
-    <section id="header">
-        <h1>
-            <div><span>iOS Developer</span></div>
-            <div id="title"><span>Rohan Sakhare</span></div>
-        </h1>
-        <svg width="20" height="21" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M10.833 13.977l4.47-4.47 1.179 1.178L10 17.167l-6.482-6.482 1.179-1.178 4.47 4.47V3.833h1.666v10.144z" fill="#777"></path>
-        </svg>
-    </section>
-    
-    <section id="about" class="dark">
-        <div class="section-title">
-            <h2>ABOUT ME</h2>
+    <link rel="stylesheet" href="./index.js" />
+    <title>RohanSakhare</title>
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+      </div>
+      <nav class="navbar">
+        <div class="max-width">
+          <div class="logo"><a href="#">Rohan Avinash Sakhare</a></div>
+          <ul class="menu">
+            <li><a href="#home" class="menu-btn">Home</a></li>
+            <li><a href="#about" class="menu-btn">About</a></li>
+            <li><a href="#services" class="menu-btn">Projects</a></li>
+            <li><a href="#skills" class="menu-btn">Skills</a></li>
+            <li><a href="#contact" class="menu-btn">Contact</a></li>
+          </ul>
+          <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+      
+      <!-- HOME SECTION -->
+      <section class="home" id="home">
+        <div class="max-width">
+          <div class="home-content">
+            <div class="text-1">Hello, Myself</div>
+            <div class="text-2"><span>Ro</span>han<span>Sak</span>hare</div>
+            <div class="text-3">And I'm a Computer Engineering Student <span class="typing"></span></div>
+            <a href="https://www.linkedin.com/in/rohan-sakhare-22b58a229/" target="_blank"><i class="fab fa-github"></i>Linkedin</a>
+          </div>
+        </div>
+      </section>
+      
+      <!-- ABOUT SECTION -->
+      <section class="about" id="about">
+        <div class="max-width">
+          <h2 class="title">About me</h2>
+          <div class="about-content">
+            <div class="column left">
+              <img src="Rohan.jpg" alt="" />
+            </div>
+            <div class="column right">
+              <div class="text">
+                I am Rohan Sakhare and I'm a <span class="typing-2"></span>
+              </div>
+              <p>
+                Hello, I am Rohan Sakhare, a computer engineering student at Dr. D. Y. Patil Institute of Technology in Pimpri, Pune. Originally hailing from Pandharpur, I came to Pune to pursue my passion for computer science engineering and was fortunate to secure admission through the TFWS (Tuition Fee Waiver Scheme) due to my outstanding performance in the entrance examination. My academic journey has been complemented by a keen interest in iOS development. I have completed an iOS development course through an online platform, specifically the 'Hacking with Swift' website by the esteemed Paul Sir. This has allowed me to dive into the world of iOS application development, expanding my skill set and knowledge in this exciting field. Beyond academics and coding, I am a multifaceted individual with a diverse set of hobbies. I find solace in cycling through the streets of Pune, and I love exploring nature through trekking and capturing its beauty with my camera. Nature videography and photography are not just pastimes for me but also a creative outlet for self-expression. I believe in balancing the technical aspects of life with the beauty of the natural world, and this duality defines my interests and passions. My academic achievements, combined with my dedication to iOS development and my love for the great outdoors, shape my unique journey and aspirations. I am excited to continue growing in the world of iOS development and to explore the intersection of technology and nature in the future.
+              </p>
+              <a href="Resume_Rohan_Sakhare.pdf" target="_blank">Download Resume</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <!-- SERVICE SECTION -->
+      <section class="services" id="services">
+        <div class="max-width">
+          <h2 class="title">My Projects</h2>
+          <div class="serv-content">
+            <div class="card">
+              <div class="box">
+                <i class="fas fa-code"></i>
+                <div class="text">Student Helping Application</div>
+                <p>
+                    Create a user-friendly app with SwiftUI, Swift, and Firebase tailored to engineering
+                    students. This essential tool will help newcomers navigate their unfamiliar college
+                    surroundings. Offering a comprehensive range of features, it enables users to locate
+                    nearby mess facilities, hostels, hospitals, xerox shop , the closest transportation
+                    stations, and essential stationary shops. Solving the issues you personally faced as
+                    a student arriving from your village, this app ensures a smoother transition for
+                    incoming students, making their educational journey more convenient and stress-
+                    free. With a sleek and intuitive interface, real-time data updates from Firebase, and
+                    the power of Swift, this app becomes an indispensable companion for every
+                    engineering student, simplifying their daily life and fostering a sense of belonging in
+                    their new environment.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="box">
+                <i class="fas fa-industry"></i>
+                <div class="text">Agricultural Management System</div>
+               
+                  
+              </div>
+            </div>
             
+          </div>
         </div>
-        <div>
-            <h3>Hey there, I'm <span class="blue">Rohan Sakhare </span></h3>
-            <div class="row">
-                <div>
-                    
-                    <p>Hello, I am Rohan Sakhare, a computer engineering student at Dr. D. Y. Patil Institute of Technology in Pimpri, Pune. Originally hailing from Pandharpur, I came to Pune to pursue my passion for computer science engineering and was fortunate to secure admission through the TFWS (Tuition Fee Waiver Scheme) due to my outstanding performance in the entrance examination.
-
-                        My academic journey has been complemented by a keen interest in iOS development. I have completed an iOS development course through an online platform, specifically the 'Hacking with Swift' website by the esteemed Paul Sir. This has allowed me to dive into the world of iOS application development, expanding my skill set and knowledge in this exciting field.
-                        
-                        Beyond academics and coding, I am a multifaceted individual with a diverse set of hobbies. I find solace in cycling through the streets of Pune, and I love exploring nature through trekking and capturing its beauty with my camera. Nature videography and photography are not just pastimes for me but also a creative outlet for self-expression.
-                        
-                        I believe in balancing the technical aspects of life with the beauty of the natural world, and this duality defines my interests and passions. My academic achievements, combined with my dedication to iOS development and my love for the great outdoors, shape my unique journey and aspirations.
-                        
-                        I am excited to continue growing in the world of iOS development and to explore the intersection of technology and nature in the future.</p>
-                </div>
-                <div>
-                    <ul>
-                        <li><span>Name:</span> Rohan Sakhare </li>
-                        <li><span>Contact Me:</span> <a href="tel:9112765649">9112765649</a></li>
-                        <li><span>Age:</span> 20</li>
-                        <li><span>My Linkedin:</span> <a href="https://www.linkedin.com/in/rohan-sakhare-22b58a229">RohanSakhareLinkedin</a></li>
-                    </ul>
-                </div>
+      </section>
+      
+      <!-- SKILLS SECTION -->
+      <section class="skills" id="skills">
+        <div class="max-width">
+          <h2 class="title">My skills</h2>
+          <div class="skills-content">
+            <div class="column left">
+              <div class="text">My skills & experiences.</div>
+              <p>
+                My self Rohan I am Third year computer Engineering Student. I am confident that
+                my skills and confidence make me a strong candidate for an entry-level iOS
+                developer, Web Developer , UI&UX Designer and c++ coder position. I am eager to
+                learn and grow in this field, and I am confident that I can make a significant
+                contribution to your team.
+              </p>
+              
             </div>
+            <div class="column right">
+              <div class="bars">
+                <div class="info">
+                  <span>C Programming</span>
+                  <span>75%</span>
+                </div>
+                <div class="line html"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>Swift</span>
+                  <span>80%</span>
+                </div>
+                <div class="line css"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>MYSQL</span>
+                  <span>75%</span>
+                </div>
+                <div class="line js"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>SwiftUI</span>
+                  <span>70%</span>
+                </div>
+                <div class="line php"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>Figma</span>
+                  <span>70%</span>
+                </div>
+                <div class="line php"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>Firebase</span>
+                  <span>50%</span>
+                </div>
+                <div class="line php"></div>
+              </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-    
-    <section id="skills">
-        <div class="section-title">
-            <h2>SKILLS</h2>
-            <p>My Toolbox</p>
+      </section>
+      
+      <!-- CONTACT SECTION -->
+      <section class="contact" id="contact">
+        <div class="max-width">
+          <h2 class="title">Contact me</h2>
+          <div class="contact-content">
+            <div class="column left">
+              <div class="text">Let's Connect!</div>
+              <p>
+                I'm eager to connect with you and explore new opportunities, whether they involve exciting projects, innovative ideas, or collaborations to bring your visions to life. Don't hesitate to reach out, and let's start a conversation.
+              </p>
+              <div class="icons">
+                <div class="row">
+                  <i class="fas fa-user"></i>
+                  <div class="info">
+                    <div class="head">Name</div>
+                    <div class="sub-title">Rohan Sakhare</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <div class="info">
+                    <div class="head">Phone</div>
+                    <div class="sub-title">9112765649</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <i class="fas fa-envelope"></i>
+                  <div class="info">
+                    <div class="head">Email</div>
+                    <div class="sub-title">rohanavinashsakhare@gmail.com</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column right">
+              <div class="text">Message me</div>
+              <form action="#">
+                <div class="fields">
+                  <div class="field name">
+                    <input type="text" placeholder="Name" required />
+                  </div>
+                  <div class="field email">
+                    <input type="email" placeholder="Email" required />
+                  </div>
+                </div>
+                <div class="field">
+                  <input type="text" placeholder="Subject" required />
+                </div>
+                <div class="field textarea">
+                  <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                </div>
+                <div class="button-area">
+                  <button type="submit">Send message</button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
-        <div class="row">
-            <div class="card">
-                <div class="card-title"><i class="fa-solid fa-pen-ruler"></i>
-                    <h3>UX/UI Design</h3>
-                </div>
-                <p>I'm deeply passionate about UI/UX design and have recently completed a comprehensive UI/UX design course on YouTube. This journey has ignited my creative spark and fueled my enthusiasm for crafting intuitive, user-friendly digital experiences</p>
-            </div>
-            <div class="card">
-                <div class="card-title"><i class="fa-solid fa-palette"></i>
-                    <h3>iOS Developement </h3>
-                </div>
-                <p>Choosing iOS Development as my career path during my engineering admission was a forward-looking decision. With Apple's global reach and a growing number of devices, I see iOS development as a promising and future-proof choice.</p>
-            </div>
-            <div class="card">
-                <div class="card-title"><i class="fa-solid fa-desktop"></i>
-                    <h3>Web Developement</h3>
-                </div>
-                <p>Everything I do is on the web! I've been designing for the web for 5 years.</p>
-            </div>
-            <div class="card">
-                <div class="card-title"><i class="fa-solid fa-code"></i>
-                    <h3>Photography</h3>
-                </div>
-                <p>I'm Rohan Sakhare, a photography enthusiast with a YouTube channel (Rohan Sakhare) and a photography page on Telegram and Instagram. Through my lens, I capture the beauty of nature, diverse cultures, and everyday moments. Join me on this visual journey, exploring the world one frame at a time.</p>
-            </div>
-        </div>
-    </section>
-    
-    
-  </body>
+      </section>
+      
+      <!-- FOOTER SECTION -->
+      <footer>
+        <span>Created By
+          <a href="https://github.com/rohsak5649" target="_blank"><span class="fab fa-github"></span>Rohan Sakhare</a>
+          </span>
+      </footer>
+</body>
 </html>
