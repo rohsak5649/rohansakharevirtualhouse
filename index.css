@@ -275,7 +275,7 @@ section .title::after {
 
 /* about section styling */
 .about .title::after {
-  content: "who I am";
+  content: "Getting to know the real me";
 }
 
 .about .about-content .left {
@@ -340,7 +340,7 @@ section .title::after {
 .services .title::after,
 .teams .title::after {
   background: #111;
-  content: "What I provide";
+  content: "Personal project accomplishment";
 }
 
 .services .serv-content .card {
@@ -501,7 +501,7 @@ section .title::after {
 
 /* contact section styling */
 .contact .title::after {
-  content: "get in touch";
+  content: "Contact me";
 }
 
 .contact .contact-content .column {
